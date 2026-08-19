@@ -1,6 +1,9 @@
 Sam Wagstaff
 Data Science Student  
 UNC Charlotte
-Born and raised in Apex, NC
-Welcome to my Data Science Studio portfolio.
-This website will document my learning and projects throughout the semester.
+---
+About Me:
+19 years old born and raised in Apex, NC. My goal is to apply what I learn as a data scientist to professional sports teams/companies.
+---
+- [Blog](blog.md)
+- [Projects](projects.md)

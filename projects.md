@@ -59,6 +59,7 @@ The features used in the models are:
 The dataset also contains Team and Season, but these were not used as model features because they identify the team or season rather than directly measuring team performance.
 ## What assumptions, restrictions, or limitations affected data collection?
 The biggest restriction was the amount of data available for this project. Only two seasons were used, giving the project 64 observations. This is a relatively small dataset for machine learning. The project also uses end-of-season statistics, meaning the model is better at examining the relationship between team performance and wins than making a true preseason prediction.
+
 ## 4. Data Understanding and Exploration
 I first explored the dataset before training the models. The dataset contained 64 rows and no missing values. The summary statistics showed differences between NFL teams in 
 points scored, points allowed, turnover differential, passing yards, rushing yards, and wins. These differences make the variables useful for comparing team performance. The 
@@ -106,6 +107,7 @@ Multiple linear regression is appropriate because the main target, Wins, is a nu
 I did not perform extensive hyperparameter tuning. For logistic regression, I used max_iter=1000 to give the model enough iterations to reach a solution.
 How did you ensure the models were compared fairly?
 Both models used the same five performance features and the same 2024 training and 2025 testing split. However, the models predict different targets, so their metrics should not be directly treated as a competition between the two models.
+
 ## 7. Model Evaluation and Selection
 For the linear regression model, I used R-squared, Mean Squared Error (MSE), and Mean Absolute Error (MAE).
 The results were:
